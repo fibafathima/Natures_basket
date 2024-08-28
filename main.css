@@ -1,0 +1,295 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+
+.top-bar {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc;
+    /* position: fixed; */
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav a, .nav input {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+.nav input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.cart {
+    font-size: 20px;
+}
+
+.main-nav {
+    background-color:#19283e;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    margin-left: 90px;
+    margin-right: 90px;
+    border-radius:100cm;
+}
+
+.main-nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+.main-nav a:hover {
+    color: #000000;
+    text-decoration: none;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 100cm;
+}
+
+.banner {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 20px;
+}
+
+.banner img {
+    max-width: 100%;
+    height: auto;
+}
+.t-pictures{
+    display: flex;
+    width: auto;
+    height:26.5vh;
+    gap: 1rem;
+    justify-content: center;
+   
+} 
+#img-3{
+    border-radius: 10px;
+}
+.shop{
+    display: flex;
+    width: 80%;
+    justify-content:space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+ 
+
+
+
+}
+.shop-img{
+    width: 175px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#shop-text{
+    text-align: center;
+    font-size: small;
+    color: rgb(161, 167, 173);
+}
+
+.category{
+    
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center;
+     
+}
+.category h2{
+    text-align: center;
+    margin: 20px;
+    
+
+}
+.worldbrand{
+    display: flex;
+    width: 80%;
+    justify-content:space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+  
+ 
+
+
+
+}
+.brand-img{
+    width: 230px;
+    height: 230px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    gap: 10rem;
+    
+}
+
+
+.brands{
+    
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center;
+     
+}
+.brands h2{
+    text-align: center;
+    margin: 20px;
+    
+}
+.cooking h2{
+    text-align: center;
+    margin: 20px;
+}
+.cooking{
+    margin-left: 20px;
+    margin-right: 20px;
+    
+
+}
+.cooking-1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.cooking-img{
+    width: 233px;
+    height: 169px;
+    border-radius: 10px;
+   
+}
+#cooking-txt{
+    text-align: center;
+    font-size: small;
+    color:#880033;
+}
+.products h2{
+    text-align: center;
+    margin: 20px;
+}
+.product-img{
+    width: 284.74px;
+    height: 284.74px;
+    border-radius: 5px;
+
+}
+.products{
+
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.products-1{
+    display: flex;
+    justify-content:space-evenly;
+}
+#product-txt{
+    text-align: center;
+    font-size: small;
+    color: #880033;
+}
+.item-1{
+    /* display: flex;
+  
+    justify-content: space-evenly;
+    width: 10vh; */
+    text-align: center;
+
+    background-color:white; 
+    box-shadow: 5px black;
+}
+.price{
+    height: 38px;
+    width: 81px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    
+}
+.order{
+    height: 36px;
+    width: 97px;
+    border-radius:10px ;
+    background-color: #18283f;
+    color: #f5f5f5;
+}
+footer {
+    color: rgb(0, 0, 0);
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-column {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+}
+
+.footer-column h4 {
+    margin-bottom: 15px;
+    font-size: 15px;
+    color: #626262;
+    font-weight: bold;
+}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: #706f6f;
+    text-decoration: none;
+}
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 10px;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    margin: 5px 0;
+}
+
+.playstore{
+    width: 170px;
+    height: 57.53px;
+}
+
+.search-bar{
+    width: 662px;
+    height: 32px;
+    position: relative;
+}
+.search-img{
+    width: 52px;
+    height: 45px;
+    position: absolute;
+    right: 20px;
+}
